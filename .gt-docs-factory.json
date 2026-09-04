@@ -1,0 +1,23 @@
+{
+  "generator": "GT Docs Factory",
+  "version": 25,
+  "sourceAdapter": "markdown",
+  "sourceUrl": "https://developers.openai.com/api/docs",
+  "llmsIndexUrl": "https://developers.openai.com/api/docs/llms.txt",
+  "sourceFingerprint": "ff006658e0a3978097376132b687c1a18146c123197d3adba2d78f73bc051302",
+  "generatedAt": "2026-09-04T04:22:34.160Z",
+  "model": "gpt-5.6-sol",
+  "pageCount": 5,
+  "navigationEntryCount": 186,
+  "inactiveNavigationPageCount": 181,
+  "reconstructedRenderedEntry": true,
+  "localizedAssetCount": 1,
+  "localizedBodyAssetCount": 5,
+  "recoveredResponsiveImageCount": 0,
+  "localizedBodyAssetBytes": 738064,
+  "routeAliasCount": 0,
+  "recoveredHostedFeatures": [],
+  "fidelityMode": "focused-markdown-backed-demo",
+  "githubOwner": "kevinwu98",
+  "visibility": "private"
+}

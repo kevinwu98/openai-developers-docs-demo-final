@@ -1,0 +1,612 @@
+/* Pages outside this focused demo retain production styling but are inert. */
+a[href$="#gt-docs-preview-unavailable"],
+a[href="/api/docs/guides/background"],
+a[href$="/api/docs/guides/background"],
+a[href="/api/docs/guides/streaming-responses"],
+a[href$="/api/docs/guides/streaming-responses"],
+a[href="/api/docs/guides/websocket-mode"],
+a[href$="/api/docs/guides/websocket-mode"],
+a[href="/api/docs/guides/steering"],
+a[href$="/api/docs/guides/steering"],
+a[href="/api/docs/guides/responses-multi-agent"],
+a[href$="/api/docs/guides/responses-multi-agent"],
+a[href="/api/docs/guides/webhooks"],
+a[href$="/api/docs/guides/webhooks"],
+a[href="/api/docs/guides/file-inputs"],
+a[href$="/api/docs/guides/file-inputs"],
+a[href="/api/docs/guides/compaction"],
+a[href$="/api/docs/guides/compaction"],
+a[href="/api/docs/guides/token-counting"],
+a[href$="/api/docs/guides/token-counting"],
+a[href="/api/docs/libraries"],
+a[href$="/api/docs/libraries"],
+a[href="/api/docs/libraries/openai-cli"],
+a[href$="/api/docs/libraries/openai-cli"],
+a[href="/api/docs/changelog"],
+a[href$="/api/docs/changelog"],
+a[href="/api/docs/deprecations"],
+a[href$="/api/docs/deprecations"],
+a[href="/api/docs/supported-countries"],
+a[href$="/api/docs/supported-countries"],
+a[href="/api/docs/bots"],
+a[href$="/api/docs/bots"],
+a[href="/api/docs/guides/agent-builder"],
+a[href$="/api/docs/guides/agent-builder"],
+a[href="/api/docs/guides/agent-builder/migrate-from-agent-builder"],
+a[href$="/api/docs/guides/agent-builder/migrate-from-agent-builder"],
+a[href="/api/docs/guides/node-reference"],
+a[href$="/api/docs/guides/node-reference"],
+a[href="/api/docs/guides/agent-builder-safety"],
+a[href$="/api/docs/guides/agent-builder-safety"],
+a[href="/api/docs/guides/evaluation-getting-started"],
+a[href$="/api/docs/guides/evaluation-getting-started"],
+a[href="/api/docs/guides/evals"],
+a[href$="/api/docs/guides/evals"],
+a[href="/api/docs/guides/prompt-optimizer"],
+a[href$="/api/docs/guides/prompt-optimizer"],
+a[href="/api/docs/guides/external-models"],
+a[href$="/api/docs/guides/external-models"],
+a[href="/api/docs/guides/evaluation-best-practices"],
+a[href$="/api/docs/guides/evaluation-best-practices"],
+a[href="/api/docs/guides/graders"],
+a[href$="/api/docs/guides/graders"],
+a[href="/api/docs/guides/model-optimization"],
+a[href$="/api/docs/guides/model-optimization"],
+a[href="/api/docs/guides/supervised-fine-tuning"],
+a[href$="/api/docs/guides/supervised-fine-tuning"],
+a[href="/api/docs/guides/vision-fine-tuning"],
+a[href$="/api/docs/guides/vision-fine-tuning"],
+a[href="/api/docs/guides/direct-preference-optimization"],
+a[href$="/api/docs/guides/direct-preference-optimization"],
+a[href="/api/docs/guides/reinforcement-fine-tuning"],
+a[href$="/api/docs/guides/reinforcement-fine-tuning"],
+a[href="/api/docs/guides/rft-use-cases"],
+a[href$="/api/docs/guides/rft-use-cases"],
+a[href="/api/docs/guides/fine-tuning-best-practices"],
+a[href$="/api/docs/guides/fine-tuning-best-practices"],
+a[href="/api/docs/assistants/migration"],
+a[href$="/api/docs/assistants/migration"],
+a[href="/api/docs/actions/data-retrieval"],
+a[href$="/api/docs/actions/data-retrieval"],
+a[href="/api/docs/actions/getting-started"],
+a[href$="/api/docs/actions/getting-started"],
+a[href="/api/docs/actions/authentication"],
+a[href$="/api/docs/actions/authentication"],
+a[href="/api/docs/actions/introduction"],
+a[href$="/api/docs/actions/introduction"],
+a[href="/api/docs/actions/actions-library"],
+a[href$="/api/docs/actions/actions-library"],
+a[href="/api/docs/actions/production"],
+a[href$="/api/docs/actions/production"],
+a[href="/api/docs/actions/sending-files"],
+a[href$="/api/docs/actions/sending-files"],
+a[href="/api/docs/gpts/release-notes"],
+a[href$="/api/docs/gpts/release-notes"],
+a[href="/api/docs/guides/chatkit-actions"],
+a[href$="/api/docs/guides/chatkit-actions"],
+a[href="/api/docs/guides/admin-apis"],
+a[href$="/api/docs/guides/admin-apis"],
+a[href="/api/docs/guides/custom-chatkit"],
+a[href$="/api/docs/guides/custom-chatkit"],
+a[href="/api/docs/guides/advanced-usage"],
+a[href$="/api/docs/guides/advanced-usage"],
+a[href="/api/docs/guides/agents/define-agents"],
+a[href$="/api/docs/guides/agents/define-agents"],
+a[href="/api/docs/guides/agents"],
+a[href$="/api/docs/guides/agents"],
+a[href="/api/docs/guides/deployment-checklist"],
+a[href$="/api/docs/guides/deployment-checklist"],
+a[href="/api/docs/guides/tools-apply-patch"],
+a[href$="/api/docs/guides/tools-apply-patch"],
+a[href="/api/docs/guides/async-tool-calling"],
+a[href$="/api/docs/guides/async-tool-calling"],
+a[href="/api/docs/guides/audio"],
+a[href$="/api/docs/guides/audio"],
+a[href="/api/docs/guides/batch"],
+a[href$="/api/docs/guides/batch"],
+a[href="/api/docs/guides/developer-mode"],
+a[href$="/api/docs/guides/developer-mode"],
+a[href="/api/docs/guides/chatkit"],
+a[href$="/api/docs/guides/chatkit"],
+a[href="/api/docs/guides/chatkit-widgets"],
+a[href$="/api/docs/guides/chatkit-widgets"],
+a[href="/api/docs/guides/citation-formatting"],
+a[href$="/api/docs/guides/citation-formatting"],
+a[href="/api/docs/guides/code-generation"],
+a[href$="/api/docs/guides/code-generation"],
+a[href="/api/docs/guides/tools-code-interpreter"],
+a[href$="/api/docs/guides/tools-code-interpreter"],
+a[href="/api/docs/guides/workload-identity-federation/federation-rules"],
+a[href$="/api/docs/guides/workload-identity-federation/federation-rules"],
+a[href="/api/docs/guides/completions"],
+a[href$="/api/docs/guides/completions"],
+a[href="/api/docs/guides/tools-computer-use"],
+a[href$="/api/docs/guides/tools-computer-use"],
+a[href="/api/docs/guides/tools-computer-use-integration"],
+a[href$="/api/docs/guides/tools-computer-use-integration"],
+a[href="/api/docs/guides/workload-identity-federation/x509"],
+a[href$="/api/docs/guides/workload-identity-federation/x509"],
+a[href="/api/docs/guides/workload-identity-federation/aws"],
+a[href$="/api/docs/guides/workload-identity-federation/aws"],
+a[href="/api/docs/guides/workload-identity-federation/github-actions"],
+a[href$="/api/docs/guides/workload-identity-federation/github-actions"],
+a[href="/api/docs/guides/workload-identity-federation/google-cloud"],
+a[href$="/api/docs/guides/workload-identity-federation/google-cloud"],
+a[href="/api/docs/guides/workload-identity-federation/kubernetes"],
+a[href$="/api/docs/guides/workload-identity-federation/kubernetes"],
+a[href="/api/docs/guides/workload-identity-federation/microsoft-azure"],
+a[href$="/api/docs/guides/workload-identity-federation/microsoft-azure"],
+a[href="/api/docs/guides/workload-identity-federation/oracle-cloud"],
+a[href$="/api/docs/guides/workload-identity-federation/oracle-cloud"],
+a[href="/api/docs/guides/workload-identity-federation/spiffe"],
+a[href$="/api/docs/guides/workload-identity-federation/spiffe"],
+a[href="/api/docs/guides/content-provenance"],
+a[href$="/api/docs/guides/content-provenance"],
+a[href="/api/docs/guides/cost-optimization"],
+a[href$="/api/docs/guides/cost-optimization"],
+a[href="/api/docs/guides/csam-guidance"],
+a[href$="/api/docs/guides/csam-guidance"],
+a[href="/api/docs/guides/safety-checks/cybersecurity"],
+a[href$="/api/docs/guides/safety-checks/cybersecurity"],
+a[href="/api/docs/guides/your-data"],
+a[href$="/api/docs/guides/your-data"],
+a[href="/api/docs/guides/deep-research"],
+a[href$="/api/docs/guides/deep-research"],
+a[href="/api/docs/guides/error-codes"],
+a[href$="/api/docs/guides/error-codes"],
+a[href="/api/docs/guides/agent-evals"],
+a[href$="/api/docs/guides/agent-evals"],
+a[href="/api/docs/guides/fast-mode"],
+a[href$="/api/docs/guides/fast-mode"],
+a[href="/api/docs/guides/tools-file-search"],
+a[href$="/api/docs/guides/tools-file-search"],
+a[href="/api/docs/guides/speech-to-text"],
+a[href$="/api/docs/guides/speech-to-text"],
+a[href="/api/docs/guides/flex-processing"],
+a[href$="/api/docs/guides/flex-processing"],
+a[href="/api/docs/guides/frontend-prompt"],
+a[href$="/api/docs/guides/frontend-prompt"],
+a[href="/api/docs/guides/function-calling"],
+a[href$="/api/docs/guides/function-calling"],
+a[href="/api/docs/guides/agents/guardrails-approvals"],
+a[href$="/api/docs/guides/agents/guardrails-approvals"],
+a[href="/api/docs/guides/image-generation"],
+a[href$="/api/docs/guides/image-generation"],
+a[href="/api/docs/guides/tools-image-generation"],
+a[href$="/api/docs/guides/tools-image-generation"],
+a[href="/api/docs/guides/image-cost-calculator"],
+a[href$="/api/docs/guides/image-cost-calculator"],
+a[href="/api/docs/guides/images-vision"],
+a[href$="/api/docs/guides/images-vision"],
+a[href="/api/docs/guides/terraform/import-and-reconcile"],
+a[href$="/api/docs/guides/terraform/import-and-reconcile"],
+a[href="/api/docs/guides/agents/integrations-observability"],
+a[href$="/api/docs/guides/agents/integrations-observability"],
+a[href="/api/docs/guides/ip-allowlist"],
+a[href$="/api/docs/guides/ip-allowlist"],
+a[href="/api/docs/guides/ip-addresses"],
+a[href$="/api/docs/guides/ip-addresses"],
+a[href="/api/docs/guides/latency-optimization"],
+a[href$="/api/docs/guides/latency-optimization"],
+a[href="/api/docs/guides/tools-local-shell"],
+a[href$="/api/docs/guides/tools-local-shell"],
+a[href="/api/docs/guides/workload-identity-federation/admin-api"],
+a[href$="/api/docs/guides/workload-identity-federation/admin-api"],
+a[href="/api/docs/guides/rbac"],
+a[href$="/api/docs/guides/rbac"],
+a[href="/api/docs/guides/terraform/projects-and-access"],
+a[href$="/api/docs/guides/terraform/projects-and-access"],
+a[href="/api/docs/guides/terraform/service-accounts"],
+a[href$="/api/docs/guides/terraform/service-accounts"],
+a[href="/api/docs/guides/realtime-costs"],
+a[href$="/api/docs/guides/realtime-costs"],
+a[href="/api/docs/guides/tools-connectors-mcp"],
+a[href$="/api/docs/guides/tools-connectors-mcp"],
+a[href="/api/docs/guides/prompting/migrate-from-prompt-object"],
+a[href$="/api/docs/guides/prompting/migrate-from-prompt-object"],
+a[href="/api/docs/guides/safety-checks/misalignment-monitoring"],
+a[href$="/api/docs/guides/safety-checks/misalignment-monitoring"],
+a[href="/api/docs/guides/model-selection"],
+a[href$="/api/docs/guides/model-selection"],
+a[href="/api/docs/guides/terraform/project-controls"],
+a[href$="/api/docs/guides/terraform/project-controls"],
+a[href="/api/docs/guides/agents/models"],
+a[href$="/api/docs/guides/agents/models"],
+a[href="/api/docs/guides/moderation"],
+a[href$="/api/docs/guides/moderation"],
+a[href="/api/docs/guides/mutual-tls"],
+a[href$="/api/docs/guides/mutual-tls"],
+a[href="/api/docs/guides/amazon-bedrock"],
+a[href$="/api/docs/guides/amazon-bedrock"],
+a[href="/api/docs/guides/optimizing-llm-accuracy"],
+a[href$="/api/docs/guides/optimizing-llm-accuracy"],
+a[href="/api/docs/guides/agents/orchestration"],
+a[href$="/api/docs/guides/agents/orchestration"],
+a[href="/api/docs/guides/predicted-outputs"],
+a[href$="/api/docs/guides/predicted-outputs"],
+a[href="/api/docs/guides/private-link"],
+a[href$="/api/docs/guides/private-link"],
+a[href="/api/docs/guides/production-best-practices"],
+a[href$="/api/docs/guides/production-best-practices"],
+a[href="/api/docs/guides/tools-programmatic-tool-calling"],
+a[href$="/api/docs/guides/tools-programmatic-tool-calling"],
+a[href="/api/docs/guides/prompt-caching"],
+a[href$="/api/docs/guides/prompt-caching"],
+a[href="/api/docs/guides/prompt-engineering"],
+a[href$="/api/docs/guides/prompt-engineering"],
+a[href="/api/docs/guides/prompt-generation"],
+a[href$="/api/docs/guides/prompt-generation"],
+a[href="/api/docs/guides/prompting"],
+a[href$="/api/docs/guides/prompting"],
+a[href="/api/docs/guides/prompt-guidance-gpt-5p6"],
+a[href$="/api/docs/guides/prompt-guidance-gpt-5p6"],
+a[href="/api/docs/guides/agents/quickstart"],
+a[href$="/api/docs/guides/agents/quickstart"],
+a[href="/api/docs/guides/rate-limits"],
+a[href$="/api/docs/guides/rate-limits"],
+a[href="/api/docs/guides/terraform/rate-limits-and-spend"],
+a[href$="/api/docs/guides/terraform/rate-limits-and-spend"],
+a[href="/api/docs/guides/realtime"],
+a[href$="/api/docs/guides/realtime"],
+a[href="/api/docs/guides/realtime-sip"],
+a[href$="/api/docs/guides/realtime-sip"],
+a[href="/api/docs/guides/realtime-webrtc"],
+a[href$="/api/docs/guides/realtime-webrtc"],
+a[href="/api/docs/guides/realtime-websocket"],
+a[href$="/api/docs/guides/realtime-websocket"],
+a[href="/api/docs/guides/realtime-conversations"],
+a[href$="/api/docs/guides/realtime-conversations"],
+a[href="/api/docs/guides/realtime-transcription"],
+a[href$="/api/docs/guides/realtime-transcription"],
+a[href="/api/docs/guides/realtime-translation"],
+a[href$="/api/docs/guides/realtime-translation"],
+a[href="/api/docs/guides/realtime-mcp"],
+a[href$="/api/docs/guides/realtime-mcp"],
+a[href="/api/docs/guides/reasoning-best-practices"],
+a[href$="/api/docs/guides/reasoning-best-practices"],
+a[href="/api/docs/guides/reasoning"],
+a[href$="/api/docs/guides/reasoning"],
+a[href="/api/docs/guides/red-teaming"],
+a[href$="/api/docs/guides/red-teaming"],
+a[href="/api/docs/guides/agents/results"],
+a[href$="/api/docs/guides/agents/results"],
+a[href="/api/docs/guides/retrieval"],
+a[href$="/api/docs/guides/retrieval"],
+a[href="/api/docs/guides/agents/running-agents"],
+a[href$="/api/docs/guides/agents/running-agents"],
+a[href="/api/docs/guides/safety-best-practices"],
+a[href$="/api/docs/guides/safety-best-practices"],
+a[href="/api/docs/guides/safety-checks"],
+a[href$="/api/docs/guides/safety-checks"],
+a[href="/api/docs/guides/agents/sandboxes"],
+a[href$="/api/docs/guides/agents/sandboxes"],
+a[href="/api/docs/guides/secure-mcp-tunnels"],
+a[href$="/api/docs/guides/secure-mcp-tunnels"],
+a[href="/api/docs/guides/tools-shell"],
+a[href$="/api/docs/guides/tools-shell"],
+a[href="/api/docs/guides/tools-skills"],
+a[href$="/api/docs/guides/tools-skills"],
+a[href="/api/docs/guides/spend-limits"],
+a[href$="/api/docs/guides/spend-limits"],
+a[href="/api/docs/guides/structured-outputs"],
+a[href$="/api/docs/guides/structured-outputs"],
+a[href="/api/docs/guides/terraform"],
+a[href$="/api/docs/guides/terraform"],
+a[href="/api/docs/guides/text"],
+a[href$="/api/docs/guides/text"],
+a[href="/api/docs/guides/text-to-speech"],
+a[href$="/api/docs/guides/text-to-speech"],
+a[href="/api/docs/guides/chatkit-themes"],
+a[href$="/api/docs/guides/chatkit-themes"],
+a[href="/api/docs/guides/tools-tool-search"],
+a[href$="/api/docs/guides/tools-tool-search"],
+a[href="/api/docs/guides/trace-grading"],
+a[href$="/api/docs/guides/trace-grading"],
+a[href="/api/docs/guides/transcription"],
+a[href$="/api/docs/guides/transcription"],
+a[href="/api/docs/guides/safety-checks/under-18-api-guidance"],
+a[href$="/api/docs/guides/safety-checks/under-18-api-guidance"],
+a[href="/api/docs/guides/upgrading-to-gpt-5p4"],
+a[href$="/api/docs/guides/upgrading-to-gpt-5p4"],
+a[href="/api/docs/guides/upgrading-to-gpt-5p5"],
+a[href$="/api/docs/guides/upgrading-to-gpt-5p5"],
+a[href="/api/docs/guides/upgrading-to-gpt-5p6-sol"],
+a[href$="/api/docs/guides/upgrading-to-gpt-5p6-sol"],
+a[href="/api/docs/guides/latest-model/gpt-4.1"],
+a[href$="/api/docs/guides/latest-model/gpt-4.1"],
+a[href="/api/docs/guides/latest-model/gpt-5"],
+a[href$="/api/docs/guides/latest-model/gpt-5"],
+a[href="/api/docs/guides/latest-model/gpt-5.1"],
+a[href$="/api/docs/guides/latest-model/gpt-5.1"],
+a[href="/api/docs/guides/latest-model/gpt-5.2"],
+a[href$="/api/docs/guides/latest-model/gpt-5.2"],
+a[href="/api/docs/guides/latest-model/gpt-5.3-codex"],
+a[href$="/api/docs/guides/latest-model/gpt-5.3-codex"],
+a[href="/api/docs/guides/latest-model/gpt-5.4"],
+a[href$="/api/docs/guides/latest-model/gpt-5.4"],
+a[href="/api/docs/guides/latest-model/gpt-5.5"],
+a[href$="/api/docs/guides/latest-model/gpt-5.5"],
+a[href="/api/docs/guides/latest-model/gpt-5.6"],
+a[href$="/api/docs/guides/latest-model/gpt-5.6"],
+a[href="/api/docs/guides/latest-model/gpt-6-astra"],
+a[href$="/api/docs/guides/latest-model/gpt-6-astra"],
+a[href="/api/docs/guides/realtime-models-prompting"],
+a[href$="/api/docs/guides/realtime-models-prompting"],
+a[href="/api/docs/guides/tools"],
+a[href$="/api/docs/guides/tools"],
+a[href="/api/docs/guides/embeddings"],
+a[href$="/api/docs/guides/embeddings"],
+a[href="/api/docs/guides/video-generation"],
+a[href$="/api/docs/guides/video-generation"],
+a[href="/api/docs/guides/realtime-vad"],
+a[href$="/api/docs/guides/realtime-vad"],
+a[href="/api/docs/guides/voice-agents"],
+a[href$="/api/docs/guides/voice-agents"],
+a[href="/api/docs/guides/tools-web-search"],
+a[href$="/api/docs/guides/tools-web-search"],
+a[href="/api/docs/guides/realtime-server-controls"],
+a[href$="/api/docs/guides/realtime-server-controls"],
+a[href="/api/docs/guides/workload-identity-federation"],
+a[href$="/api/docs/guides/workload-identity-federation"],
+a[href="/api/docs/mcp"],
+a[href$="/api/docs/mcp"],
+a[href="/api/docs/models"],
+a[href$="/api/docs/models"],
+a[href="/api/docs/models/all"],
+a[href$="/api/docs/models/all"],
+a[href="/api/docs/models/compare"],
+a[href$="/api/docs/models/compare"],
+a[href="/api/docs/pricing"],
+a[href$="/api/docs/pricing"],
+a[href="/api/docs/tutorials/meeting-minutes"],
+a[href$="/api/docs/tutorials/meeting-minutes"],
+a[href="/api/docs/tutorials/web-qa-embeddings"],
+a[href$="/api/docs/tutorials/web-qa-embeddings"] {
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+body:has(.gt-rendered-page) #header {
+  display: none;
+}
+
+body:has(.gt-rendered-page) #content {
+  margin-top: 0;
+  max-width: none;
+}
+
+body:has(.gt-rendered-page) #table-of-contents-layout {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  body:has(.gt-rendered-page) #content-area {
+    width: calc(100% - 14rem) !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    padding-left: 1rem !important;
+  }
+
+  body:has(.gt-rendered-page) #sidebar {
+    width: 14rem;
+  }
+}
+
+.gt-rendered-page {
+  --gt-surface: rgb(248 248 248);
+  --gt-surface-raised: rgb(255 255 255);
+  --gt-border: rgb(0 0 0 / 10%);
+  --gt-muted: rgb(90 90 90);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 72rem;
+  color: inherit;
+}
+
+.dark .gt-rendered-page {
+  --gt-surface: rgb(24 24 24);
+  --gt-surface-raised: rgb(31 31 31);
+  --gt-border: rgb(255 255 255 / 12%);
+  --gt-muted: rgb(181 181 181);
+}
+
+.gt-rendered-page h1,
+.gt-rendered-page h2,
+.gt-rendered-page h3,
+.gt-rendered-page p {
+  margin: 0;
+}
+
+.gt-rendered-page h1 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.gt-rendered-page h2 {
+  font-size: clamp(1.625rem, 2.5vw, 1.875rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.gt-rendered-page h3 {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.gt-hero,
+.gt-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.gt-panel,
+.gt-card,
+.gt-callout {
+  border: 1px solid var(--gt-border);
+  border-radius: 0.75rem;
+  background: var(--gt-surface-raised);
+}
+
+.gt-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.7fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--gt-surface);
+}
+
+.gt-panel-copy,
+.gt-card,
+.gt-callout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gt-panel-copy {
+  justify-content: center;
+}
+
+.gt-panel h2 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.gt-panel > .gt-grid {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.7fr);
+}
+
+.gt-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.gt-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--gt-border);
+  border-radius: 999px;
+  color: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.gt-button-primary {
+  border-color: transparent;
+  background: currentColor;
+  color: var(--background-color, white);
+}
+
+.dark .gt-button-primary {
+  background: white;
+  color: black;
+}
+
+.gt-button-secondary {
+  background: rgb(127 127 127 / 18%);
+}
+
+.gt-callout,
+.gt-card {
+  padding: 1rem;
+}
+
+.gt-callout {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gt-callout h3 {
+  font-size: 0.875rem;
+}
+
+.gt-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.gt-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gt-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.gt-card {
+  min-height: 8rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.gt-card:hover {
+  background: var(--gt-surface);
+  text-decoration: none;
+}
+
+.gt-muted {
+  color: var(--gt-muted);
+}
+
+.gt-code {
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: rgb(12 12 12);
+}
+
+.gt-code pre {
+  margin: 0;
+  border: 0;
+  background: transparent;
+}
+
+.gt-code .code-block {
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+.gt-media {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.gt-media img {
+  width: 100%;
+  height: 11.25rem;
+  margin: 0;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .gt-rendered-page {
+    gap: 1.75rem;
+  }
+
+  .gt-rendered-page h1 {
+    font-size: 2rem;
+  }
+
+  .gt-panel,
+  .gt-grid-2,
+  .gt-grid-4 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gt-callout {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

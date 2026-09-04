@@ -1,0 +1,301 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "OpenAI Developers",
+  "description": "Explore guides, API docs, and examples for the OpenAI API.",
+  "colors": {
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#10A37F"
+  },
+  "favicon": "/assets/brand/5edb76009a107119.png",
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "https://developers.openai.com/"
+      },
+      {
+        "label": "API",
+        "href": "https://developers.openai.com/api/docs"
+      },
+      {
+        "label": "Codex",
+        "href": "https://learn.chatgpt.com/docs"
+      },
+      {
+        "label": "ChatGPT",
+        "href": "https://developers.openai.com/chatgpt"
+      },
+      {
+        "label": "Resources",
+        "href": "https://developers.openai.com/learn"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "API Dashboard",
+      "href": "https://platform.openai.com/login"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/docs"
+            ]
+          },
+          {
+            "group": "Get started",
+            "pages": [
+              "api/docs/quickstart",
+              "api/docs/concepts"
+            ]
+          },
+          {
+            "group": "Core concepts",
+            "pages": [
+              "api/docs/guides/migrate-to-responses",
+              "api/docs/guides/conversation-state",
+              "api/docs/guides/background",
+              "api/docs/guides/streaming-responses",
+              "api/docs/guides/websocket-mode",
+              "api/docs/guides/steering",
+              "api/docs/guides/responses-multi-agent",
+              "api/docs/guides/webhooks",
+              "api/docs/guides/file-inputs",
+              "api/docs/guides/compaction",
+              "api/docs/guides/token-counting"
+            ]
+          },
+          {
+            "group": "SDKs and CLI",
+            "pages": [
+              "api/docs/libraries",
+              "api/docs/libraries/openai-cli"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "api/docs/changelog",
+              "api/docs/deprecations",
+              "api/docs/supported-countries",
+              "api/docs/bots"
+            ]
+          },
+          {
+            "group": "Legacy APIs",
+            "pages": [
+              "api/docs/guides/agent-builder",
+              "api/docs/guides/agent-builder/migrate-from-agent-builder",
+              "api/docs/guides/node-reference",
+              "api/docs/guides/agent-builder-safety",
+              "api/docs/guides/evaluation-getting-started",
+              "api/docs/guides/evals",
+              "api/docs/guides/prompt-optimizer",
+              "api/docs/guides/external-models",
+              "api/docs/guides/evaluation-best-practices",
+              "api/docs/guides/graders",
+              "api/docs/guides/model-optimization",
+              "api/docs/guides/supervised-fine-tuning",
+              "api/docs/guides/vision-fine-tuning",
+              "api/docs/guides/direct-preference-optimization",
+              "api/docs/guides/reinforcement-fine-tuning",
+              "api/docs/guides/rft-use-cases",
+              "api/docs/guides/fine-tuning-best-practices",
+              "api/docs/assistants/migration"
+            ]
+          },
+          {
+            "group": "Actions",
+            "pages": [
+              "api/docs/actions/data-retrieval",
+              "api/docs/actions/getting-started",
+              "api/docs/actions/authentication",
+              "api/docs/actions/introduction",
+              "api/docs/actions/actions-library",
+              "api/docs/actions/production",
+              "api/docs/actions/sending-files"
+            ]
+          },
+          {
+            "group": "Gpts",
+            "pages": [
+              "api/docs/gpts/release-notes"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "api/docs/guides/chatkit-actions",
+              "api/docs/guides/admin-apis",
+              "api/docs/guides/custom-chatkit",
+              "api/docs/guides/advanced-usage",
+              "api/docs/guides/agents/define-agents",
+              "api/docs/guides/agents",
+              "api/docs/guides/deployment-checklist",
+              "api/docs/guides/tools-apply-patch",
+              "api/docs/guides/async-tool-calling",
+              "api/docs/guides/audio",
+              "api/docs/guides/batch",
+              "api/docs/guides/developer-mode",
+              "api/docs/guides/chatkit",
+              "api/docs/guides/chatkit-widgets",
+              "api/docs/guides/citation-formatting",
+              "api/docs/guides/code-generation",
+              "api/docs/guides/tools-code-interpreter",
+              "api/docs/guides/workload-identity-federation/federation-rules",
+              "api/docs/guides/completions",
+              "api/docs/guides/tools-computer-use",
+              "api/docs/guides/tools-computer-use-integration",
+              "api/docs/guides/workload-identity-federation/x509",
+              "api/docs/guides/workload-identity-federation/aws",
+              "api/docs/guides/workload-identity-federation/github-actions",
+              "api/docs/guides/workload-identity-federation/google-cloud",
+              "api/docs/guides/workload-identity-federation/kubernetes",
+              "api/docs/guides/workload-identity-federation/microsoft-azure",
+              "api/docs/guides/workload-identity-federation/oracle-cloud",
+              "api/docs/guides/workload-identity-federation/spiffe",
+              "api/docs/guides/content-provenance",
+              "api/docs/guides/cost-optimization",
+              "api/docs/guides/csam-guidance",
+              "api/docs/guides/safety-checks/cybersecurity",
+              "api/docs/guides/your-data",
+              "api/docs/guides/deep-research",
+              "api/docs/guides/error-codes",
+              "api/docs/guides/agent-evals",
+              "api/docs/guides/fast-mode",
+              "api/docs/guides/tools-file-search",
+              "api/docs/guides/speech-to-text",
+              "api/docs/guides/flex-processing",
+              "api/docs/guides/frontend-prompt",
+              "api/docs/guides/function-calling",
+              "api/docs/guides/agents/guardrails-approvals",
+              "api/docs/guides/image-generation",
+              "api/docs/guides/tools-image-generation",
+              "api/docs/guides/image-cost-calculator",
+              "api/docs/guides/images-vision",
+              "api/docs/guides/terraform/import-and-reconcile",
+              "api/docs/guides/agents/integrations-observability",
+              "api/docs/guides/ip-allowlist",
+              "api/docs/guides/ip-addresses",
+              "api/docs/guides/latency-optimization",
+              "api/docs/guides/tools-local-shell",
+              "api/docs/guides/workload-identity-federation/admin-api",
+              "api/docs/guides/rbac",
+              "api/docs/guides/terraform/projects-and-access",
+              "api/docs/guides/terraform/service-accounts",
+              "api/docs/guides/realtime-costs",
+              "api/docs/guides/tools-connectors-mcp",
+              "api/docs/guides/prompting/migrate-from-prompt-object",
+              "api/docs/guides/safety-checks/misalignment-monitoring",
+              "api/docs/guides/model-selection",
+              "api/docs/guides/terraform/project-controls",
+              "api/docs/guides/agents/models",
+              "api/docs/guides/moderation",
+              "api/docs/guides/mutual-tls",
+              "api/docs/guides/amazon-bedrock",
+              "api/docs/guides/optimizing-llm-accuracy",
+              "api/docs/guides/agents/orchestration",
+              "api/docs/guides/predicted-outputs",
+              "api/docs/guides/private-link",
+              "api/docs/guides/production-best-practices",
+              "api/docs/guides/tools-programmatic-tool-calling",
+              "api/docs/guides/prompt-caching",
+              "api/docs/guides/prompt-engineering",
+              "api/docs/guides/prompt-generation",
+              "api/docs/guides/prompting",
+              "api/docs/guides/prompt-guidance-gpt-5p6",
+              "api/docs/guides/agents/quickstart",
+              "api/docs/guides/rate-limits",
+              "api/docs/guides/terraform/rate-limits-and-spend",
+              "api/docs/guides/realtime",
+              "api/docs/guides/realtime-sip",
+              "api/docs/guides/realtime-webrtc",
+              "api/docs/guides/realtime-websocket",
+              "api/docs/guides/realtime-conversations",
+              "api/docs/guides/realtime-transcription",
+              "api/docs/guides/realtime-translation",
+              "api/docs/guides/realtime-mcp",
+              "api/docs/guides/reasoning-best-practices",
+              "api/docs/guides/reasoning",
+              "api/docs/guides/red-teaming",
+              "api/docs/guides/agents/results",
+              "api/docs/guides/retrieval",
+              "api/docs/guides/agents/running-agents",
+              "api/docs/guides/safety-best-practices",
+              "api/docs/guides/safety-checks",
+              "api/docs/guides/agents/sandboxes",
+              "api/docs/guides/secure-mcp-tunnels",
+              "api/docs/guides/tools-shell",
+              "api/docs/guides/tools-skills",
+              "api/docs/guides/spend-limits",
+              "api/docs/guides/structured-outputs",
+              "api/docs/guides/terraform",
+              "api/docs/guides/text",
+              "api/docs/guides/text-to-speech",
+              "api/docs/guides/chatkit-themes",
+              "api/docs/guides/tools-tool-search",
+              "api/docs/guides/trace-grading",
+              "api/docs/guides/transcription",
+              "api/docs/guides/safety-checks/under-18-api-guidance",
+              "api/docs/guides/upgrading-to-gpt-5p4",
+              "api/docs/guides/upgrading-to-gpt-5p5",
+              "api/docs/guides/upgrading-to-gpt-5p6-sol",
+              "api/docs/guides/latest-model/gpt-4.1",
+              "api/docs/guides/latest-model/gpt-5",
+              "api/docs/guides/latest-model/gpt-5.1",
+              "api/docs/guides/latest-model/gpt-5.2",
+              "api/docs/guides/latest-model/gpt-5.3-codex",
+              "api/docs/guides/latest-model/gpt-5.4",
+              "api/docs/guides/latest-model/gpt-5.5",
+              "api/docs/guides/latest-model/gpt-5.6",
+              "api/docs/guides/latest-model/gpt-6-astra",
+              "api/docs/guides/realtime-models-prompting",
+              "api/docs/guides/tools",
+              "api/docs/guides/embeddings",
+              "api/docs/guides/video-generation",
+              "api/docs/guides/realtime-vad",
+              "api/docs/guides/voice-agents",
+              "api/docs/guides/tools-web-search",
+              "api/docs/guides/realtime-server-controls",
+              "api/docs/guides/workload-identity-federation"
+            ]
+          },
+          {
+            "group": "Mcp",
+            "pages": [
+              "api/docs/mcp"
+            ]
+          },
+          {
+            "group": "Models",
+            "pages": [
+              "api/docs/models",
+              "api/docs/models/all",
+              "api/docs/models/compare"
+            ]
+          },
+          {
+            "group": "Pricing",
+            "pages": [
+              "api/docs/pricing"
+            ]
+          },
+          {
+            "group": "Tutorials",
+            "pages": [
+              "api/docs/tutorials/meeting-minutes",
+              "api/docs/tutorials/web-qa-embeddings"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
