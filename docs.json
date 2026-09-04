@@ -296,6 +296,30 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Models",
+        "pages": ["api/docs/models"]
+      },
+      {
+        "tab": "Agents",
+        "pages": ["api/docs/guides/agents"]
+      },
+      {
+        "tab": "Tools",
+        "pages": ["api/docs/guides/tools"]
+      },
+      {
+        "tab": "Voice & Audio",
+        "pages": ["api/docs/guides/voice-agents"]
+      },
+      {
+        "tab": "Production",
+        "pages": ["api/docs/guides/production-best-practices"]
+      },
+      {
+        "tab": "API reference",
+        "pages": ["api/reference"]
       }
     ]
   }

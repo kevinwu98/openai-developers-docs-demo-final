@@ -1,5 +1,7 @@
 /* Pages outside this focused demo retain production styling but are inert. */
 a[href$="#gt-docs-preview-unavailable"],
+a[href="/api/reference"],
+a[href$="/api/reference"],
 a[href="/api/docs/guides/latest-model"],
 a[href$="/api/docs/guides/latest-model"],
 a[href="/api/docs/guides/background"],
