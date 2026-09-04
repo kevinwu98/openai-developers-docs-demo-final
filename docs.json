@@ -41,7 +41,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Overview",
         "groups": [
           {
             "group": "Overview",
@@ -53,6 +53,7 @@
             "group": "Get started",
             "pages": [
               "api/docs/quickstart",
+              "api/docs/guides/latest-model",
               "api/docs/concepts"
             ]
           },
